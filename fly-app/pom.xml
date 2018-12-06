@@ -5,7 +5,7 @@
 	<parent>
 		<artifactId>fly_multi_blog</artifactId>
 		<groupId>com.jay</groupId>
-		<version>1.0-SNAPSHOT</version>
+		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 
 	<modelVersion>4.0.0</modelVersion>
@@ -16,19 +16,17 @@
 	<packaging>jar</packaging>
 
 	<name>fly-app</name>
-	<description>Demo project for Spring Boot</description>
+	<description>web层</description>
 
 
 	<dependencies>
 		<dependency>
 			<groupId>com.jay</groupId>
 			<artifactId>fly-service</artifactId>
-			<version>1.0-SNAPSHOT</version>
 		</dependency>
 		<dependency>
 			<groupId>com.jay</groupId>
 			<artifactId>fly-base</artifactId>
-			<version>1.0-SNAPSHOT</version>
 		</dependency>
 	</dependencies>
 
